@@ -272,6 +272,19 @@ footer {
 .site-footer a {
     display: block;
     line-height: 2;
+    transition: color .17s ease-out;
+    -webkit-transition: color .17s ease-out;
+    -moz-transition: color .17s ease-out;
+    -ms-transition: color .17s ease-out;
+    -o-transition: color .17s ease-out;
+}
+
+.site-footer a:hover {
+    color: var(--dark-light-blue);
+}
+
+.footer-column {
+    padding-left: 1rem;
 }
 
 .copyright {
