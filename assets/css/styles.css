@@ -109,6 +109,7 @@ img {
 
 .navbar {
     border-top: 1px solid var(--grey);
+    border-bottom: 1px solid var(--grey);
 }
 
 .navbar .container {
@@ -291,4 +292,24 @@ footer {
 .copyright {
     text-align: center;
     margin-top: 5rem;
+}
+
+/* About Us Page */
+.about-us-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    column-gap: 4rem;
+}
+
+.about-us-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.about-us-right p {
+    margin-bottom: 2rem;
+    line-height: 2;
 }
