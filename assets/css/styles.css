@@ -127,16 +127,8 @@ img {
     padding: 2rem 0;
 }
 
-.navbar a {
-    transition: color .17s ease-out;
-    -webkit-transition: color .17s ease-out;
-    -moz-transition: color .17s ease-out;
-    -ms-transition: color .17s ease-out;
-    -o-transition: color .17s ease-out;
-}
-
 .navbar a:hover {
-    color: var(--dark-light-blue);
+    color: var(--light-blue);
 }
 
 /* Hero */
@@ -159,11 +151,11 @@ img {
     display: block;
     padding: 2rem;
     font-size: 20px;
-    transition: background-color .25s ease-out;
-    -webkit-transition: background-color .25s ease-out;
-    -moz-transition: background-color .25s ease-out;
-    -ms-transition: background-color .25s ease-out;
-    -o-transition: background-color .25s ease-out;
+    transition: background-color .14s ease-out;
+    -webkit-transition: background-color .14s ease-out;
+    -moz-transition: background-color .14s ease-out;
+    -ms-transition: background-color .14s ease-out;
+    -o-transition: background-color .14s ease-out;
     border-bottom-right-radius: 1rem;
 }
 
@@ -285,6 +277,10 @@ footer {
 .site-footer a {
     display: block;
     line-height: 2;
+}
+
+.site-footer a:hover {
+    color: var(--light-blue);
 }
 
 .copyright {
@@ -425,16 +421,8 @@ footer {
     padding-left: 2rem;
 }
 
-.blog-container aside a {
-    transition: color .25s ease-out;
-    -webkit-transition: color .25s ease-out;
-    -moz-transition: color .25s ease-out;
-    -ms-transition: color .25s ease-out;
-    -o-transition: color .25s ease-out;
-}
-
 .blog-container aside a:hover {
-    color: var(--dark-light-blue);
+    color: var(--light-blue);
 }
 
 /* Blog Entry Page */
