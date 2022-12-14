@@ -5,7 +5,7 @@
     --black: #000;
     --white: #fff;
     --light-blue: #027ac0;
-    --dark-light-blue: #00649e;
+    --dark-light-blue: #005485;
     --green-btn: #8dbd00;
     --green-btn-hover: #779c03;
     --grey: #e1e1e1;
@@ -317,4 +317,55 @@ footer {
     width: 40rem;
     margin: 0 auto;
     object-fit: cover;
+}
+
+/* Contact page */
+.form {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.form fieldset {
+    border: 1px solid var(--black);
+    margin: 2.5rem 0;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.form legend {
+    background-color: var(--dark-light-blue);
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    width: 98%;
+    text-align: center;
+    margin-bottom: 4rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.input-field {
+    display: flex;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}
+
+.input-field label {
+    flex-basis: 10rem;
+}
+
+.input-field input:not([type="radio"]),
+.input-field select,
+.input-field textarea {
+    flex: 1;
+    border: 1px solid var(--grey);
+    padding: .7rem;
+    resize: none;
 }
