@@ -131,6 +131,11 @@ img {
     color: var(--light-blue);
 }
 
+.active {
+    color: var(--light-blue);
+    font-weight: 700;
+}
+
 /* Hero */
 .hero {
     background-image: url('../img/principal.jpg');
