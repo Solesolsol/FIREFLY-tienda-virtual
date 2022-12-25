@@ -27,9 +27,11 @@ html {
 }
 
 body {
+    background-color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 1.6rem;
     line-height: 2;
+    overflow-x: hidden;
 }
 
 /* Global Styles */
@@ -250,7 +252,7 @@ img {
     background-image: linear-gradient(to bottom, transparent 50%, #037bc0 50%, #037bc0 100%), url(../img/nosotros.jpg);
     background-position: center, top left;
     background-repeat: no-repeat;
-    background-size: 100%, 80rem;
+    background-size: 100%, 92rem;
     text-align: center;
 }
 
@@ -589,6 +591,12 @@ footer {
     margin-bottom: 2rem;
 }
 
+.blog-entry:last-of-type {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 .blog-entry h2 {
     text-align: center;
 }
@@ -597,13 +605,6 @@ footer {
     .blog-entry h2 {
         text-align: left;
     }
-}
-
-
-.blog-entry:last-of-type {
-    padding-bottom: 0;
-    border-bottom: 1px solid #e1e1e1;
-    margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
