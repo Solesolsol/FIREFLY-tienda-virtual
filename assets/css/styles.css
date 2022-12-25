@@ -112,8 +112,10 @@ img {
     margin-bottom: 3rem;
 }
 
-.max-width-30 {
-    max-width: 30rem;
+@media (min-width: 1024px) {
+    .max-width-30 {
+        max-width: 30rem;
+    }
 }
 
 .btn-primary {
@@ -534,10 +536,28 @@ footer {
 }
 
 /* Blog Page */
-.blog-container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    column-gap: 5rem;
+.blog-content {
+    padding: 3rem;
+}
+
+@media (min-width: 768px) {
+    .blog-content {
+        padding: 0;
+    }
+}
+
+.blog-container aside {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.blog-container aside ul {
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+.blog-container aside a:hover {
+    color: var(--light-blue);
 }
 
 .blog-entry {
@@ -546,15 +566,40 @@ footer {
     margin-bottom: 2rem;
 }
 
+.blog-entry h2 {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .blog-entry h2 {
+        text-align: left;
+    }
+}
+
+
 .blog-entry:last-of-type {
-    border: none;
+    padding-bottom: 0;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 0;
+}
+
+@media (min-width: 1024px) {
+    .blog-entry:last-of-type {
+        border: none;
+    }
 }
 
 .blog-tag {
     font-weight: 700;
-    display: flex;
-    justify-content: space-between;
     padding: 1rem 0 2rem 0;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .blog-tag {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .blog-tag span {
@@ -570,20 +615,27 @@ footer {
     padding-bottom: 2rem;
 }
 
-.blog-container aside {
-    margin-top: 1rem;
-}
+@media (min-width: 1024px) {
+    .blog-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 5rem;
+    }
 
-.blog-container aside ul {
-    padding-left: 2rem;
-}
-
-.blog-container aside a:hover {
-    color: var(--light-blue);
+    .blog-container aside {
+        margin-top: 1rem;
+        text-align: left;
+    }
+    
+    .blog-container aside ul {
+        padding-left: 2rem;
+    }
 }
 
 /* Blog Entry Page */
-.blog-entry {
-    width: 60rem;
-    margin: 0 auto;
+@media (min-width: 768px) {
+    .blog-entry {
+        width: 60rem;
+        margin: 0 auto;
+    }
 }
