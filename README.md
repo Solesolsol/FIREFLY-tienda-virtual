@@ -1,5 +1,5 @@
 # ECOMMERCE-TIENDAMUEBLES
-Prototype Website for a Furniture Ecommerce
+Front-End prototype for a Furniture Ecommerce
 
 #### Homepage
 ![Screenshot from 2022-12-13 23-01-31](https://user-images.githubusercontent.com/103754829/207510544-95fa7697-d5fd-4aef-8615-62b78893efd3.png)
