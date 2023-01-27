@@ -1,4 +1,4 @@
-# ECOMMERCE-TIENDAMUEBLES
+# ECOMMERCE-TIENDAMUEBLES - [![Netlify Status](https://api.netlify.com/api/v1/badges/017ba7d3-cb67-4ce1-8ba1-bdd9088f9052/deploy-status)](https://app.netlify.com/sites/tiendamuebles-ecommerce-kevjs/deploys)
 Responsive Front-End prototype for a Furniture Ecommerce
 
 `Website Demo:` https://tiendamuebles-ecommerce-kevjs.netlify.app/
