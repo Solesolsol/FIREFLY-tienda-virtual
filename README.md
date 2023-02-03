@@ -8,12 +8,12 @@
 
 <p align="center">Responsive Frontend Prototype for a Furniture Ecommerce</p>
 
-<img src="https://user-images.githubusercontent.com/103754829/207510544-95fa7697-d5fd-4aef-8615-62b78893efd3.png" alt="Project Preview"/>
-
 <div align="center">
   <h3><a href="https://tiendamuebles-ecommerce-kevjs.netlify.app/">➡️ LIVE DEMO</a></h3>
   <hr/>
 </div> 
+
+<img src="https://user-images.githubusercontent.com/103754829/207510544-95fa7697-d5fd-4aef-8615-62b78893efd3.png" alt="Project Preview"/>
 
 ## BUILT WITH
 <br/>
