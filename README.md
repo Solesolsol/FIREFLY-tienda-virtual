@@ -1,4 +1,5 @@
 <div align="center">
+  <br/>
   <img src="https://user-images.githubusercontent.com/103754829/216657053-ceb45a25-feee-4495-ad0b-c964b142afe6.png" width="500px" height="auto"/>
 
   <div>
@@ -36,7 +37,7 @@ Before you begin, make sure you have met the following requirements:
 * <a href="https://git-scm.com/downloads" target="_blank">Git</a> must be installed on your operating system.
 
 ## INSTALLATION
-To try <strong>Nucleus eWallet</strong>, follow these steps:
+To try <strong>Ecommerce-TiendaMuebles</strong>, follow these steps:
 
 Linux and macOS:
 ```
