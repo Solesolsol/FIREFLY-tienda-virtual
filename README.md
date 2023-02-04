@@ -41,7 +41,7 @@ To try <strong>Ecommerce-TiendaMuebles</strong>, follow these steps:
 
 Linux and macOS:
 ```
-sudo git clone git@github.com:KevinJSS/Ecommerce-TiendaMuebles.git
+$ sudo git clone git@github.com:KevinJSS/Ecommerce-TiendaMuebles.git
 ```
 
 Windows:
